@@ -6,7 +6,7 @@ import { LinkedIn } from "react-linkedin-login-oauth2";
 import linkedin from "react-linkedin-login-oauth2/assets/linkedin.png";
 
 function LinkedInPage() {
-  const redirecturi = "https://y-b-a-king-whn-u-could-b-a-god.netlify.app/linkedin";
+  const redirecturi = "https://y-b-a-king-whn-u-could-b-a-god.netlify.app";
   const clientid = "86avzvskpzw7f5";
   const clientSecret = "Nm7IaXgwyEHdgtAV";
   // const successHandler = async (code) => {
@@ -23,7 +23,7 @@ function LinkedInPage() {
     };
 
     const data = await axios.post(
-      `https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=86avzvskpzw7f5&client_secret=Nm7IaXgwyEHdgtAV&code=${code}&redirect_uri=https://y-b-a-king-whn-u-could-b-a-god.netlify.app/linkedin`,
+      `https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=86avzvskpzw7f5&client_secret=Nm7IaXgwyEHdgtAV&code=${code}&redirect_uri=https://y-b-a-king-whn-u-could-b-a-god.netlify.app`,
       config
     );
   };
