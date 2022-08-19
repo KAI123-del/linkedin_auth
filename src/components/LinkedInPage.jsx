@@ -6,7 +6,7 @@ import { LinkedIn } from "react-linkedin-login-oauth2";
 import linkedin from "react-linkedin-login-oauth2/assets/linkedin.png";
 
 function LinkedInPage() {
-  const redirecturi = "http://localhost:3001/linkedin";
+  const redirecturi = "https://y-b-a-king-whn-u-could-b-a-god.netlify.app/linkedin";
   const clientid = "86avzvskpzw7f5";
   const clientSecret = "Nm7IaXgwyEHdgtAV";
   // const successHandler = async (code) => {
