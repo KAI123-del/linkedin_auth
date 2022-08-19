@@ -23,7 +23,7 @@ function LinkedInPage() {
     };
 
     const data = await axios.post(
-      `https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=86avzvskpzw7f5&client_secret=Nm7IaXgwyEHdgtAV&code=${code}&redirect_uri=http://localhost:3001/linkedin`,
+      `https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=86avzvskpzw7f5&client_secret=Nm7IaXgwyEHdgtAV&code=${code}&redirect_uri=https://y-b-a-king-whn-u-could-b-a-god.netlify.app/linkedin`,
       config
     );
   };
